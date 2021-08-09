@@ -299,7 +299,7 @@ strong{
     flex-wrap: wrap;
     justify-content:center;
 	align-items: center;
-	padding: 20px;
+	padding: 100px;
 }
 
 .card{
@@ -310,6 +310,18 @@ strong{
 	height:300px;
 	border-radius:12px;
     background:var(--main-decor-color);
+}
+
+.work-img-full{
+	
+	display: flex;
+	flex-direction: auto;
+	margin: 50px;
+	width: 60%;
+	height:50%;
+	border-radius:20px 20px 20px 20px;	
+	flex-direction: column;
+	align-items: column;
 }
 
 .card img{
@@ -543,7 +555,7 @@ hr {
     border-radius: 100%;
     /* Take full size */
     height: 100%;
-    width: 120%;
+    width: 100%;
 	
 	
 }
